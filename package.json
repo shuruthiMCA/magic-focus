@@ -1,0 +1,53 @@
+
+{
+  "name": "princess-focus",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Magic Focus desktop productivity app",
+  "author": "EarthNova",
+  "main": "electron/main.cjs",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "electron": "electron electron/main.cjs",
+    "build": "vite build",
+    "dist": "npm run build && electron-builder",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "electron": "^44.5.1",
+    "electron-builder": "^26.15.3",
+    "oxlint": "^1.81.0",
+    "vite": "^8.3.0"
+  },
+  "build": {
+    "files": [
+      "dist/**/*",
+      "electron/main.cjs",
+      "package.json"
+    ],
+    "appId": "com.magicfocus.desktop",
+    "productName": "Magic Focus",
+    "directories": {
+      "output": "release"
+    },
+    
+    "asar": true,
+    "win": {
+      "icon": "build/icon.png",
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false
+    }
+  }
+}
