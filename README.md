@@ -5,6 +5,20 @@ A desktop focus and study app for Windows that helps you concentrate, study smar
 **[⬇ Download for Windows (v1.0.0)](https://drive.google.com/file/d/13kuamEf8ipsbnP2scWfJeriPAjy1Ag80/view?usp=drive_link)**
 
 > Windows may show a "Windows protected your PC" box because the app is not signed. Click **More info → Run anyway**.
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/focus.png" width="600" alt="Focus page">
+</p>
+<p align="center">
+  <img src="screenshots/mind-games.png" width="600" alt="Brain games">
+</p>
+<p align="center">
+  <img src="screenshots/theme.png" width="600" alt="Style shop with themes and avatars">
+</p>
+<p align="center">
+  <img src="screenshots/daily-goal.png" width="600" alt="Daily goal and weekly chart">
+</p>
 
 ## Features
 
