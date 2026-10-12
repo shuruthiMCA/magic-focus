@@ -1,16 +1,52 @@
-# React + Vite
+# ✨ Magic Focus
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A desktop focus and study app for Windows that helps you concentrate, study smarter and train your mind with brain games. Finish focus sessions to earn XP, crystals, streaks and rewards.
 
-Currently, two official plugins are available:
+**[⬇ Download for Windows (v1.0.0)](https://drive.google.com/file/d/13kuamEf8ipsbnP2scWfJeriPAjy1Ag80/view?usp=drive_link)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> Windows may show a "Windows protected your PC" box because the app is not signed. Click **More info → Run anyway**.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Focus timer** with a progress ring and preset goals for Employee, Student and Govt Exam
+- **Subject tracking** to log your study time by subject
+- **Break time** after each session, with a mystery gift and a break countdown
+- **4 brain games:** Memory Match, Quick Math, Word Scramble and Logic quiz
+- **Flashcards** to add your own questions and revise them in 3 boxes
+- **Progress system** with XP, levels, crystals, day streaks and streak shields
+- **Rewards shop** with potions and hint scrolls
+- **Style shop** to unlock themes and avatars with crystals
+- **Weekly chart and daily goal** to see how much you studied
+- **Relaxing sounds:** Ocean, Calm and Zen, generated in the app
+- **Mini timer** in a small separate window
+- **Desktop notifications** when a session finishes
+- **Feedback button** that opens an email to the developer
 
-## Expanding the Oxlint configuration
+## Built with
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React 19 and Vite
+- Electron and electron-builder (Windows installer)
+- Web Audio API for sounds (no audio files)
+- localStorage to save progress on your computer
+- Vitest and Testing Library for tests
+
+## Run it yourself
+
+```
+git clone https://github.com/shuruthiMCA/magic-focus.git
+cd magic-focus
+npm install
+npm run dev
+```
+
+To build the Windows installer:
+
+```
+npm run dist
+```
+
+The installer is created in the `release` folder.
+
+## About
+
+Built by Shuruthi as a personal project to learn React and Electron and to help people focus.
