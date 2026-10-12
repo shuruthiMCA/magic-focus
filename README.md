@@ -2,6 +2,8 @@
 
 A desktop focus and study app for Windows that helps you concentrate, study smarter and train your mind with brain games. Finish focus sessions to earn XP, crystals, streaks and rewards.
 
+**[🌐 Visit the website](https://magic-focus-app.netlify.app)**
+
 **[⬇ Download for Windows (v1.0.0)](https://drive.google.com/file/d/13kuamEf8ipsbnP2scWfJeriPAjy1Ag80/view?usp=drive_link)**
 
 > Windows may show a "Windows protected your PC" box because the app is not signed. Click **More info → Run anyway**.
